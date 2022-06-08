@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #FFE61B;
+  font-family: 'Rock Salt', cursive;
+  text-shadow: 3px 0 #CE9461;
+
+}
+.wall
+{
+  width:100%;
+  height:100vh;
+  background-image:url(images/drumDesktop.png);
+  background-size:cover;
+  background-position:center;
+  position:relative;
+}
+
+footer {
+  color: #FFE61B;
+  font-family: 'New Rocker', cursive;
+  /* font-family: sans-serif; */
+}
+
+.w {
+
+background-image: url("images/btom1.png");
+
+}
+
+.a {
+background-image: url("images/btom2.png");
+}
+
+.s {
+background-image: url("images/btom3.png");
+}
+
+.d {
+background-image: url("images/btom4.png");
+}
+
+.j {
+background-image: url("images/snare.png");
+}
+
+.k {
+background-image: url("images/crash.png");
+}
+
+.l {
+background-image: url("images/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red{
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 20px solid gery;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #F7D716;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
